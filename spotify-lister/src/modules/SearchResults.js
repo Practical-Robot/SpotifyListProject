@@ -4,26 +4,39 @@ function SearchResults(){
 
     return(
         <div className="searchResults">
+            <div id='resultsTitle'>Search Results</div>
             <ul>
                 <li>
+                    <p>
                     Song: Singing in the Rain
                     <br />
                     Artist: Dick Van Dyke
+                    </p>
+                    <button className='addButton'>+</button>
                 </li>
-                                <li>
-                    Song: B.Y.O.B.
+                <li>
+                    <p>
+                    Song: Singing in the Rain
                     <br />
-                    Artist: System of a Down
+                    Artist: Dick Van Dyke
+                    </p>
+                    <button className='addButton'>+</button>
                 </li>
-                                <li>
-                    Song: Lick my Lovepump
+                <li>
+                    <p>
+                    Song: Singing in the Rain
                     <br />
-                    Artist: Spinal Tap
+                    Artist: Dick Van Dyke
+                    </p>
+                    <button className='addButton'>+</button>
                 </li>
-                                <li>
-                    Song: Love in an Elevator
+                <li>
+                    <p>
+                    Song: Singing in the Rain
                     <br />
-                    Artist: Aerosmith
+                    Artist: Dick Van Dyke
+                    </p>
+                    <button className='addButton'>+</button>
                 </li>
             </ul>
 
