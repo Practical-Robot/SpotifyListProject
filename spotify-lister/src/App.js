@@ -15,10 +15,10 @@ function App() {
         <h1>Ja<span className="accentLetters">mmm</span>ing</h1>
          <SearchBar />
       </header>
+      <div className="listContainer">
       <SearchResults />
       <Playlist />
-      <Tracklist />
-      <Track />
+      </div>
     </div>
     
   )

@@ -5,7 +5,7 @@ function Playlist() {
     return(
     <div className="playlist">
         <form>
-            <input type="text" value='Cool Playlist'/>
+            <input id="playlistField" type="text" value='Cool Playlist'/>
             <ul>
                 <li>
                     Song: Intergalactic
