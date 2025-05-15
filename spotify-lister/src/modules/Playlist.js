@@ -4,8 +4,8 @@ function Playlist() {
     
     return(
     <div className="playlist">
-        <form>
-            <input id="playlistField" type="text" value='Cool Playlist'/>
+        <form className="playForm">
+            <input id="playlistField" type="text" value='Name Your Playlist'/>
             <ul>
                 <li>
                     Song: Intergalactic
@@ -30,7 +30,7 @@ function Playlist() {
                 </li>
             </ul>
 
-            <input type='submit' defaultValue="Save to Spotify"/> 
+            <button id="playlistButton">Save to Spotify</button> 
         </form>
     </div>
     );
