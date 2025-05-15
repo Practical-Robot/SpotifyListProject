@@ -3,7 +3,7 @@ import React from 'react';
 function SearchResults(){
 
     return(
-        <div>
+        <div className='searchResults'>
             <ul>
                 <li>
                     Song: Singing in the Rain

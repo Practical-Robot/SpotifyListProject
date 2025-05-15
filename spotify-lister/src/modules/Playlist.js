@@ -3,7 +3,7 @@ import React from "react";
 function Playlist() {
     
     return(
-    <div>
+    <div className="playlist">
         <form>
             <input type="text" value='Cool Playlist'/>
             <ul>
@@ -30,7 +30,7 @@ function Playlist() {
                 </li>
             </ul>
 
-            <input type='submit' value='Save to Spotify'/>
+            <input type='submit' defaultValue="Save to Spotify"/> 
         </form>
     </div>
     );

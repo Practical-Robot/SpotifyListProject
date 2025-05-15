@@ -4,16 +4,17 @@ import SearchResults from "./modules/SearchResults";
 import SearchBar from "./modules/SearchBar";
 import Playlist from "./modules/Playlist";
 import Track from "./modules/Track";
+import body from "./styles/Style.css"
 
 function App() {
   
 
   return(
-    <div>
+    <div className="appContainer">
       <header>
-        Ja<span className="accentLetters">mmm</span>ing
+        <h1>Ja<span className="accentLetters">mmm</span>ing</h1>
+         <SearchBar />
       </header>
-      <SearchBar />
       <SearchResults />
       <Playlist />
       <Tracklist />
