@@ -8,25 +8,36 @@ function Playlist() {
             <input id="playlistField" type="text" value='Name Your Playlist'/>
             <ul>
                 <li>
-                    Song: Intergalactic
+                    <p>
+                    Song: Singing in the Rain
                     <br />
-                    Artist: Beastie Boys
-                    <br />
-                    Album: Hello Nasty
+                    Artist: Dick Van Dyke
+                    </p>
+                    <button className='addButton'>-</button>
                 </li>
                 <li>
-                    Song: I Can Do It With a Broken Heart
+                    <p>
+                    Song: Singing in the Rain
                     <br />
-                    Artist: Taylor Swift
-                    <br />
-                    Album: THE TORTURED POET
+                    Artist: Dick Van Dyke
+                    </p>
+                    <button className='addButton'>-</button>
                 </li>
                 <li>
-                    Song: Blah Blah Blah
+                    <p>
+                    Song: Singing in the Rain
                     <br />
-                    Artist: Armin van Buuren
+                    Artist: Dick Van Dyke
+                    </p>
+                    <button className='addButton'>-</button>
+                </li>
+                <li>
+                    <p>
+                    Song: Singing in the Rain
                     <br />
-                    Album: Balance
+                    Artist: Dick Van Dyke
+                    </p>
+                    <button className='addButton'>-</button>
                 </li>
             </ul>
 
