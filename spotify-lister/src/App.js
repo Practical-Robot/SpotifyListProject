@@ -1,9 +1,9 @@
 import React from "react";
-import Tracklist from "./modules/Tracklist";
-import SearchResults from "./modules/SearchResults";
-import SearchBar from "./modules/SearchBar";
+import Tracklist from "./modules/TrackList/TrackList";
+import SearchResults from "./modules/SearchResults/SearchResults";
+import SearchBar from "./modules/SearchBar/SearchBar";
 import Playlist from "./modules/Playlist";
-import Track from "./modules/Track";
+import Track from "./modules/Track/Track";
 import body from "./styles/Style.css"
 
 function App() {
