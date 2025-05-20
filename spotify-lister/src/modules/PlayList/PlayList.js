@@ -2,7 +2,7 @@ import React, { useCallback } from "react";
 
 import "./PlayList.css";
 
-import TrackList from "../modules/TrackList/TrackList";
+import TrackList from "../TrackList/TrackList";
 
 function PlayList(props) {
     
