@@ -4,7 +4,7 @@ function SearchBar(props){
 
     const [searchWord, setSearchWord] = useState("");
 
-    const handleWordChage = useCallback((event) => {
+    const handleWordChange = useCallback((event) => {
         setSearchWord(event.target.value);
     }, []);
 
@@ -19,7 +19,7 @@ return(
             id="searchBox"
             type="text"
             placeholder="Enter a Tune"
-            onChange={handleTermChange}
+            onChange={handleWordChange}
             />
             <br/>
             <button id="searchButton" onClick={search}>Search</button>
